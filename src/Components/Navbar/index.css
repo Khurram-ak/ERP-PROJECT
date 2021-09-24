@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.corner {
+    flex: 1 !important;
+    padding-left:28px !important;
+}
+
+.spacing span {
+    padding: 0px 12px;
+}
+.position{
+    position: fixed !important;
+    left: 0px !important;
+    /* right: 50px; */
+}
+.smallPosition{
+    position: fixed !important;
+    top: 80px;
+    left: 290px !important;
+    /* right: 50px; */
+}
+.smallPosition3{
+    position: fixed !important;
+    top: 81px;
+    left: 615px !important;
+    /* right: 50px; */
+}
+.smallPosition2{
+    position: fixed !important;
+    top: 80px;
+    left: 435px !important;
+    /* right: 50px; */
+}
+
+.navbar {
+    background-color: rgb(250, 249, 249) !important;
+    padding: 0px 18px !important;
+    height: 80px;
+    box-shadow: 1px 0px 010px black;
+    position: fixed !important;
+    width: 100%;
+    top:0px;
+    z-index: 5 !important;
+}
+
+.menu {
+    /* border: 1px solid black !important; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans" !important;
+    font-size: 13px;
+    color: black !important;
+    cursor: pointer;
+    padding: 0px 12px;
+    font-weight: 600;
+}
+.btn {
+    color: #F9F9F9 !important;
+    font-weight: 600 !important;
+    padding: 10px 15px !important;
+    background: #8A2387;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none !important;
+}
+.caret{
+    border-bottom: 0px solid black;
+    transition-property:all;
+    transition-duration: .5s;
+    color: rgb(207, 203, 197);
+}
+.caret:hover{
+    transform: rotate(180deg);
+    transition-duration: .5s;
+    /* transform-style: preserve-3d; */
+}
+.menu:hover{
+    border-bottom: 3px solid black;
+}
+.spacing i {
+    font-size: 20px !important;
+}
+.toggler{
+    display: none;
+}
+@media screen and (max-width:2280px) {
+    .blockNav {
+      display: none !important;
+    }
+  }
+  
+  @media screen and (max-width:1280px) {
+    .resNav {
+      display: none !important;
+    }
+    .blockNav {
+      display: block !important;
+    }
+  }

@@ -1,0 +1,32 @@
+.column {
+    padding: 8px 20px;
+    width: 230px !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 600 !important;
+    background-color: #F9F9F9;
+    border-right: 3px solid rgb(206, 198, 198);
+    padding: 10px;
+}
+
+.column h5 {
+    padding: 5px 23px;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+
+.displayMenu {
+    display: flex;
+    position: fixed;
+    top: 80px;
+    left: 105px;
+    z-index: 10;
+    border-bottom:3px solid lightgray ;
+    border-left:3px solid lightgray ;
+     
+} 
+
+.column p {
+    padding: 2px 25px;
+    cursor: pointer;
+}

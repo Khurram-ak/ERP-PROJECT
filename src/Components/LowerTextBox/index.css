@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.LowerBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lowerInput {
+    font-size: 15px !important;
+    text-decoration: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+.lowerText h2 {
+    font-size: 36px;
+    font-family: 'open sans';
+    font-weight: 800 !important;
+}
+
+.lowerText p {
+    font-family: 'open sans';
+    color: rgb(172, 172, 172);
+}
+
+.lowerBtn {
+    padding: 15px 25px !important;
+    margin-left: 10px;
+}
+
+.lowerInput:focus {
+    border: 2px solid rgb(151, 141, 141) !important;
+}
+
+@media screen and (max-width:615px) {
+    .lowerHeight {
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .buttonMedia {
+        display: block !important;
+    }
+    .mLowerBtn {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:365px) {
+.lowerHeight{
+    height: 450px !important;
+}
+}

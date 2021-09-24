@@ -1,0 +1,18 @@
+.space {
+    line-height: 20px !important;
+    color: rgb(129, 120, 120);
+}
+
+#fonts {
+    font-family: 'roboto' !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width:550px) {
+    .billCards {
+        display: none !important;
+    }
+    .copy {
+        text-align: center;
+    }
+}

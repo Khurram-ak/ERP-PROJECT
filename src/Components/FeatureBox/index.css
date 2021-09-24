@@ -1,0 +1,20 @@
+.boxItem{
+    height: 282px;
+    background-color: #F9F9F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    border-right: 1px solid rgb(204, 194, 194);
+    text-align: center;
+}
+.lowerBanner{
+    background-image: url('../../Images/lowerBanner.jpg');
+    background-size: cover;
+    height: 430px;
+
+}
+.lowerBanner img{
+    border-radius: 5px ;
+}
+

@@ -1,0 +1,29 @@
+.blockCard{
+    display: none;
+}
+@media  screen and (max-width:750px) {
+    .downHeight{
+        height: 850px !important;
+    }
+    .resCard{
+        display: none;
+    }
+    .blockCard{
+        display: block;
+    }
+}
+@media  screen and (max-width:630px) {
+    .downHeight{
+        height: 650px !important;
+}
+}
+@media  screen and (max-width:470px) {
+    .downHeight{
+        height: 540px !important;
+    }
+}
+@media  screen and (max-width:360px) {
+    .downHeight{
+        height: 420px !important;
+    }
+}

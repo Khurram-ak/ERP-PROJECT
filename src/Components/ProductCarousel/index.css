@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    font-weight: 600;
+}
+
+.cardCarousel {
+    border: 2px solid rgb(152, 162, 165);
+    padding: 20px 10px;
+}
+.small {
+    text-align: end !important;
+}
+
+.d-flex {
+    font-weight: 600 !important;
+}
+
+.text {
+    padding: 20px;
+}
+
+.text h4 {
+    font-family: 'montserrat';
+    font-size: 21px;
+}
+
+.text p {
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+
+.card {
+    display: flex !important;
+    border-radius: 5px;
+    height: 150px;
+    border: 1px solid lightgray;
+    background-color: gray;
+}
+.bar{
+    height: 10px !important;
+    width:95% !important ;
+    margin: auto !important;
+}
+.nextButton{
+    margin-top: -73px !important;
+    margin-right: -22px !important;
+
+}
+.previousButton{
+    /* background-color: blue !important; */
+    /* border-radius: 50% !important; */
+    margin-left: -22px !important;
+    margin-top: -73px !important;
+}
+.cardText{
+    font-size: 12px;
+    color: gray;
+}
+.font{
+    font-size: 22px !important;
+    font-family: "Montserrat" !important;
+    font-weight: 800 !important;
+}
+.icon{
+    color: gray;
+}
+.skuImg{
+    transform: scale(1.0);
+    transition-property: all;
+    transition-duration: 5ms;
+}
+.skuImg:hover{
+    transform:scale(1.2)
+
+}
